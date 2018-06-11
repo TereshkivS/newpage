@@ -1,0 +1,16 @@
+
+.search{
+	width: 100%;
+	background-color: black;
+	padding: 15px;
+	font-size: 2em;
+	color: #eee;
+	text-align: center;
+}
+
+#lecturers{
+	min-width: 350px;
+	font-size: 1em;
+	text-align: center;
+	margin: 15px auto;
+}

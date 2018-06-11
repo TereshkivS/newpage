@@ -1,0 +1,22 @@
+
+/*
+.footer{
+	position: absolute;
+	bottom: 0;
+}*/
+
+.propose{
+	width: 100%;
+	background-color: black;
+}
+
+.propose form table{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	font-size: 2em;
+	color: #eee;
+}
+.propose form input{
+	font-size: inherit;
+}
