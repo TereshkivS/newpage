@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 ;let Citation = (function(){
 	function shuffle(a) {
@@ -24,6 +24,9 @@
 {id: 9, name: {first: 'Дмитро', second: 'Зербіно', third: 'Дмитрович'}, name_full: 'Зербіно Дмитро Дмитрович', wiki: 'http://wiki.lp.edu.ua/wiki/%D0%97%D0%B5%D1%80%D0%B1%D1%96%D0%BD%D0%BE_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87', photo: 'http://wiki.lp.edu.ua/wiki/images/3/3f/Zerbino_01.jpg'},
 {id:10, name: {first: 'Богдан', second: 'Демида', third: 'Адамович'}, name_full: 'Демида Богдан Адамович', wiki: 'http://wiki.lp.edu.ua/wiki/%D0%94%D0%B5%D0%BC%D0%B8%D0%B4%D0%B0_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD_%D0%90%D0%B4%D0%B0%D0%BC%D0%BE%D0%B2%D0%B8%D1%87', photo: 'http://wiki.lp.edu.ua/wiki/images/e/eb/Demyda_1.jpg'},
 {id:11, name: {first: 'Людвіг', second: 'Фабрі', third: 'Павлович'}, name_full: 'Фабрі Людвіг Павлович', wiki: '', photo: 'http://studvoice.com/uploads/posts/2017-11/thumbs/1510920401_fabry.png'},
+{id:12, name: {first: 'Анатолій', second: 'Батюк', third: 'Євгенович'}, name_full: 'Батюк Анатолій Євгенович', wiki: 'http://wiki.lp.edu.ua/wiki/%D0%91%D0%B0%D1%82%D1%8E%D0%BA_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%84%D0%B2%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8%D1%87', photo: 'http://studvoice.com/uploads/posts/2017-11/thumbs/1510919794_batyuk.png'},
+{id:13, name: {first: 'Квітослава', second: 'Обельовська', third: 'Михайлівна'}, name_full: 'Обельовська Квітослава Михайлівна', wiki: 'http://wiki.lp.edu.ua/wiki/%D0%9E%D0%B1%D0%B5%D0%BB%D1%8C%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%9A%D0%B2%D1%96%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%B0_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%D0%BD%D0%B0', photo: 'http://studvoice.com/uploads/posts/2017-11/thumbs/1510920025_obelovska.png'},
+{id:14, name: {first: 'Іванна', second: 'Дронюк', third: 'Мирославівна'}, name_full: 'Дронюк Іванна Мирославівна', wiki: 'http://wiki.lp.edu.ua/wiki/%D0%94%D1%80%D0%BE%D0%BD%D1%8E%D0%BA_%D0%86%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0_%D0%9C%D0%B8%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D1%96%D0%B2%D0%BD%D0%B0', photo: 'http://wiki.lp.edu.ua/wiki/images/0/0a/Dronjuk_01.jpg'},
 			];
 			/* list of all lecturer citations */
 			this.citations = [
@@ -35,6 +38,8 @@
 {lecturer_id: 0, text: 'Бачу ви лягли в певне позу і зібрались спати, бо язик у вас сверлом.', explanation: ''},
 {lecturer_id: 0, text: 'Закрийте свої панелі.', explanation: ''},
 {lecturer_id: 0, text: 'Закрийте свій бампер.', explanation: ''},
+{lecturer_id: 0, text: 'Голубим видно?', explanation: ''},
+{lecturer_id: 0, text: 'Я хочу чути як муха ходить', explanation: ''},
 {lecturer_id: 0, text: 'Ще півразу і відносини будете вирішувати у коридорі. Там є великі горизонтальні площадки.', explanation: ''},
 {lecturer_id: 0, text: 'Для професіоналів це все одно.', explanation: 'Дослiдити квадратичну форму на знаковизначенiсть: L(x1, x2, x3) = 4x 2 1 + 2x1x2 + 6x1x3 + 2x 2 2 + 3x 2 3 .'},
 {lecturer_id: 0, text: 'Крутяк, що ви там відокремлюєте?', explanation: ''},
@@ -61,6 +66,7 @@
 {lecturer_id: 0, text: 'А що він сам з собою говорив.', explanation: 'Це про студента, якого вигнали з пари за розмови під час лекції'},
 {lecturer_id: 0, text: 'Він може бути дурний або дурнуватий.', explanation: ''},
 {lecturer_id: 1, text: 'Доба має 24 години. Перед сесією тоже.', explanation: ''},
+{lecturer_id: 1, text: 'Що вим там, мої комісари?', explanation: ''},
 {lecturer_id: 1, text: 'Чим ближче до весни, тим цікавіше вам спілкуватися один з одним.', explanation: ''},
 {lecturer_id: 8, text: 'Господар слова і раб слова.', explanation: ''},
 {lecturer_id: 1, text: 'Поки цей самокат гріється...', explanation: 'Про комп’ютер, який включається.'},
@@ -120,7 +126,15 @@
 {lecturer_id: 9, text: '- Христос воскрес.\n- Дякую. Вам тоже.', explanation: ''},
 {lecturer_id: 9, text: '- А що ви з Даніелем по-російськи розмовляєте?\n- Це ми для СБУ.', explanation: ''},
 {lecturer_id: 9, text: 'Та шо там готуватися, це ж тести для дибілів.', explanation: ''},
+{lecturer_id: 9, text: 'Якщо ви не отримали "+" на цій парі, то ви овощ.', explanation: ''},
+{lecturer_id: 9, text: 'А де ви бачили кальян зі стриптизом? - Чорновола 45', explanation: ''},
+{lecturer_id: 9, text: 'А де ви бачили кальян зі стриптизом? - Чорновола 45', explanation: ''},
+{lecturer_id: 9, text: 'Уявіть що ви в маршрутці їдете. - Вже 5 хв уявляю. - Супер, яку вулицю проїхали? - Церкву Ольги та Єлизавети. - Супер, помоліться тоді.', explanation: ''},
 {lecturer_id:10, text: 'Вас зіпсув WEB 2.0', explanation: ''},
+{lecturer_id:12, text: 'Вертаємся в сім\'ю.', explanation: ''},
+{lecturer_id:12, text: '- Чого не встаєш? \n- ...\n - Що? Не встає?', explanation: ''},
+{lecturer_id:13, text: 'Краще щоб я когось не запам\'ятала, ніж запам\'ятала', explanation: ''},
+{lecturer_id:14, text: 'Якби ми були в США, то мене б вже посадили за сексизм.', explanation: ''},
 
 			];
 
